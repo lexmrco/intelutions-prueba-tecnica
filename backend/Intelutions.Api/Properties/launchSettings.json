@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Nexos.PruebaTecnica": {
+    "Intelutions.PruebaTecnica": {
       "commandName": "Project",
       "launchBrowser": false,
       "launchUrl": "",
