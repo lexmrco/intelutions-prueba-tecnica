@@ -1,4 +1,11 @@
 # Intelutions Prueba Tecnica
+Desarrollo de prueba técnica usando las siguientes tecnologías y librerías: 
+* .Net Core
+  * Entity Framework
+* VueJS
+  * Bootstrap-vue
+* SQL Server
+  
 Para el desarrollo de esta prueba se entrega:
 * Base de datos
 * Solución backend
@@ -17,7 +24,7 @@ Para iniciar la solución se debe configurar la conexión a base de datos en el 
 La solucción cuenta con los siguientes proyectos:
 * Intelutions.Api: Aplicación web en donde se encuentran los controladores que contienen los distintos endpoints de la aplicación.
 * Intelutions.BLL: Proyecto de librería de clases con la lógica de negocios
-* Intelutions.DAL: Proyecto de librería de clases con la lógica de acceso a datos
+* Intelutions.DAL: Proyecto de librería de clases con la lógica de acceso a datos. El ORM usado para el acceso a datos es Entity Framework
 * Intelutions.Entities: Proyecto de librería de clases con la definición de las entidades de base de datos
 
 Dentro del API .Net se exponen los siguientes endpoint:
