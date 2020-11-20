@@ -176,7 +176,7 @@ namespace Intelutions.Api.Controllers
                 NombreEmpleado = entity.NombreEmpleado,
                 ApellidosEmpleado = entity.ApellidosEmpleado,
                 TipoPermisoId = entity.TipoPermisoId,
-                //TipoPermisoDescripcion = entity.TipoPermiso.Descripcion,
+                TipoPermisoDescripcion = entity.TipoPermiso == null ? "": entity.TipoPermiso.Descripcion,
                 FechaPermiso = string.Format("{0:yyyy-MM-dd HH:mm}", CustomDateTime.ConvertFromUtc(entity.FechaPermiso, GlobalProperties.DefaultTimeZoneId), GlobalProperties.DateFormatFilter)
 
             };

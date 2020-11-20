@@ -1,6 +1,9 @@
 <template>
   <div>
-    <PermisoForm :data="item" type="read" />
+    <b-nav>
+      <b-nav-item @click="$router.push({name: 'home'})">Cancelar</b-nav-item>
+    </b-nav>
+    <PermisoForm :data="item" type="edit" />
   </div>
 </template>
 

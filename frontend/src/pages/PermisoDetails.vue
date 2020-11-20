@@ -1,5 +1,9 @@
 <template>
   <div>
+    <b-nav>
+      <b-nav-item @click="$router.push({name: 'home'})">Volver</b-nav-item>
+      <b-nav-item @click="$router.push({name: 'permisoAdd'})">Agregar permiso</b-nav-item>
+    </b-nav>
     <PermisoForm :data="item" type="read" />
   </div>
 </template>

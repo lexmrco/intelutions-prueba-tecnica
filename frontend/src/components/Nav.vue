@@ -1,11 +1,12 @@
 <template>
   <div>
-    <b-nav>
-      <b-nav-item active>Active</b-nav-item>
-      <b-nav-item @click="$router.push({name: 'permisoAdd'})">Agregar permiso</b-nav-item>
-      <b-nav-item @click="$router.push({name: 'home'})">Lista</b-nav-item>
-      <b-nav-item disabled>Disabled</b-nav-item>
-    </b-nav>
+      <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar-brand href="#">Prueba técnica</b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    
+  </b-navbar>
   </div>
 </template>
 
